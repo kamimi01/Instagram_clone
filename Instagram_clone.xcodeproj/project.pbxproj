@@ -24,6 +24,7 @@
 		D44306C623A62BA100D63C6C /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44306C523A62BA100D63C6C /* SettingViewController.swift */; };
 		D44306C923A636FE00D63C6C /* UIColor+rgba.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44306C823A636FE00D63C6C /* UIColor+rgba.swift */; };
 		D44306CC23A637D800D63C6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44306CB23A637D800D63C6C /* Main.storyboard */; };
+		D44306CE23A63DD900D63C6C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D44306CD23A63DD900D63C6C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		D44306C523A62BA100D63C6C /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		D44306C823A636FE00D63C6C /* UIColor+rgba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+rgba.swift"; sourceTree = "<group>"; };
 		D44306CB23A637D800D63C6C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D44306CD23A63DD900D63C6C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FD57A6DF677473BF43777AF6 /* Pods-Instagram_clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram_clone.debug.xcconfig"; path = "Target Support Files/Pods-Instagram_clone/Pods-Instagram_clone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +108,7 @@
 				D44306A123A628BF00D63C6C /* Assets.xcassets */,
 				D44306A323A628BF00D63C6C /* LaunchScreen.storyboard */,
 				D44306A623A628BF00D63C6C /* Info.plist */,
+				D44306CD23A63DD900D63C6C /* GoogleService-Info.plist */,
 			);
 			path = Instagram_clone;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			files = (
 				D44306AF23A6292600D63C6C /* Login.storyboard in Resources */,
 				D44306BA23A62B1700D63C6C /* ImageSelect.storyboard in Resources */,
+				D44306CE23A63DD900D63C6C /* GoogleService-Info.plist in Resources */,
 				D44306C423A62B8100D63C6C /* Setting.storyboard in Resources */,
 				D44306CC23A637D800D63C6C /* Main.storyboard in Resources */,
 				D44306A523A628BF00D63C6C /* LaunchScreen.storyboard in Resources */,
