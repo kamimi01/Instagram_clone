@@ -17,13 +17,90 @@
                     <view key="view" contentMode="scaleToFill" id="RmE-VN-Cib">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="メールアドレス" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7iX-6C-Dlo">
+                                <rect key="frame" x="57" y="294" width="300" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="IBo-hK-FjI"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="Sj5-Jg-Qdm"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="パスワード" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Ni-6Y-7Um">
+                                <rect key="frame" x="57" y="349" width="300" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="8lh-qd-Fru"/>
+                                    <constraint firstAttribute="height" constant="45" id="fFV-P4-p12"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" keyboardType="alphabet" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="アカウント作成時は表示名を入力" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Op-Fp-6PJ">
+                                <rect key="frame" x="57" y="404" width="300" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="CCi-MP-Kjb"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="Fum-xi-DEG"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NgI-QF-3YH">
+                                <rect key="frame" x="57" y="459" width="300" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="yIU-WK-zWP"/>
+                                </constraints>
+                                <state key="normal" title="ログイン" backgroundImage="btn">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleLoginButton:" destination="03b-aO-aTo" eventType="touchUpInside" id="zGn-EE-dDj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eql-VY-dso">
+                                <rect key="frame" x="57" y="509" width="300" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="vE4-SX-sPB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="アカウント作成" backgroundImage="btn">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleCreateAccountButton:" destination="03b-aO-aTo" eventType="touchUpInside" id="F6B-0v-xS0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97608000040054321" green="0.9416925311088562" blue="0.90587753057479858" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="7iX-6C-Dlo" firstAttribute="top" secondItem="fYL-vK-1cG" secondAttribute="top" constant="250" id="Ggh-QY-0tC"/>
+                            <constraint firstItem="2Ni-6Y-7Um" firstAttribute="top" secondItem="7iX-6C-Dlo" secondAttribute="bottom" constant="10" id="QkF-Y3-9HB"/>
+                            <constraint firstItem="7Op-Fp-6PJ" firstAttribute="top" secondItem="2Ni-6Y-7Um" secondAttribute="bottom" constant="10" id="U6b-zj-3RS"/>
+                            <constraint firstItem="NgI-QF-3YH" firstAttribute="centerX" secondItem="RmE-VN-Cib" secondAttribute="centerX" id="WYj-7b-toE"/>
+                            <constraint firstItem="2Ni-6Y-7Um" firstAttribute="centerX" secondItem="RmE-VN-Cib" secondAttribute="centerX" id="XCy-hN-LUu"/>
+                            <constraint firstItem="7Op-Fp-6PJ" firstAttribute="centerX" secondItem="RmE-VN-Cib" secondAttribute="centerX" id="elb-eG-GyK"/>
+                            <constraint firstItem="Eql-VY-dso" firstAttribute="centerX" secondItem="RmE-VN-Cib" secondAttribute="centerX" id="mIC-MA-v9f"/>
+                            <constraint firstItem="NgI-QF-3YH" firstAttribute="top" secondItem="7Op-Fp-6PJ" secondAttribute="bottom" constant="10" id="n7X-kh-MJz"/>
+                            <constraint firstItem="7iX-6C-Dlo" firstAttribute="centerX" secondItem="RmE-VN-Cib" secondAttribute="centerX" id="qXB-cz-I27"/>
+                            <constraint firstItem="Eql-VY-dso" firstAttribute="top" secondItem="NgI-QF-3YH" secondAttribute="bottom" constant="10" id="vla-y4-EDR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="fYL-vK-1cG"/>
                     </view>
+                    <connections>
+                        <outlet property="displayNameTextField" destination="7Op-Fp-6PJ" id="THQ-Q6-2yq"/>
+                        <outlet property="mailAddressTextField" destination="7iX-6C-Dlo" id="Pir-17-wxO"/>
+                        <outlet property="passwordTextField" destination="2Ni-6Y-7Um" id="pFC-Hg-E3h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xSu-qZ-WiM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="142" y="95"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="btn" width="300" height="40"/>
+    </resources>
 </document>
