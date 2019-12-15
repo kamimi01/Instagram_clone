@@ -22,6 +22,8 @@
 		D44306C123A62B5A00D63C6C /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44306C023A62B5A00D63C6C /* PostViewController.swift */; };
 		D44306C423A62B8100D63C6C /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44306C323A62B8100D63C6C /* Setting.storyboard */; };
 		D44306C623A62BA100D63C6C /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44306C523A62BA100D63C6C /* SettingViewController.swift */; };
+		D44306C923A636FE00D63C6C /* UIColor+rgba.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44306C823A636FE00D63C6C /* UIColor+rgba.swift */; };
+		D44306CC23A637D800D63C6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44306CB23A637D800D63C6C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		D44306C023A62B5A00D63C6C /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		D44306C323A62B8100D63C6C /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 		D44306C523A62BA100D63C6C /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		D44306C823A636FE00D63C6C /* UIColor+rgba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+rgba.swift"; sourceTree = "<group>"; };
+		D44306CB23A637D800D63C6C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FD57A6DF677473BF43777AF6 /* Pods-Instagram_clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram_clone.debug.xcconfig"; path = "Target Support Files/Pods-Instagram_clone/Pods-Instagram_clone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,9 +100,9 @@
 		D443069923A628BD00D63C6C /* Instagram_clone */ = {
 			isa = PBXGroup;
 			children = (
+				D44306C723A636E700D63C6C /* Extension */,
 				D44306AD23A628E500D63C6C /* View */,
 				D443069A23A628BD00D63C6C /* AppDelegate.swift */,
-				D443069C23A628BD00D63C6C /* ViewController.swift */,
 				D44306A123A628BF00D63C6C /* Assets.xcassets */,
 				D44306A323A628BF00D63C6C /* LaunchScreen.storyboard */,
 				D44306A623A628BF00D63C6C /* Info.plist */,
@@ -109,6 +113,7 @@
 		D44306AD23A628E500D63C6C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D44306CA23A637AD00D63C6C /* Common */,
 				D44306C223A62B7400D63C6C /* Setting */,
 				D44306BD23A62B4600D63C6C /* Post */,
 				D44306B823A62B0400D63C6C /* ImageSelect */,
@@ -161,6 +166,23 @@
 				D44306C523A62BA100D63C6C /* SettingViewController.swift */,
 			);
 			path = Setting;
+			sourceTree = "<group>";
+		};
+		D44306C723A636E700D63C6C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D44306C823A636FE00D63C6C /* UIColor+rgba.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D44306CA23A637AD00D63C6C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D443069C23A628BD00D63C6C /* ViewController.swift */,
+				D44306CB23A637D800D63C6C /* Main.storyboard */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +248,7 @@
 				D44306AF23A6292600D63C6C /* Login.storyboard in Resources */,
 				D44306BA23A62B1700D63C6C /* ImageSelect.storyboard in Resources */,
 				D44306C423A62B8100D63C6C /* Setting.storyboard in Resources */,
+				D44306CC23A637D800D63C6C /* Main.storyboard in Resources */,
 				D44306A523A628BF00D63C6C /* LaunchScreen.storyboard in Resources */,
 				D44306A223A628BF00D63C6C /* Assets.xcassets in Resources */,
 				D44306BF23A62B5000D63C6C /* Post.storyboard in Resources */,
@@ -283,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D44306C123A62B5A00D63C6C /* PostViewController.swift in Sources */,
+				D44306C923A636FE00D63C6C /* UIColor+rgba.swift in Sources */,
 				D44306B223A629EF00D63C6C /* LoginViewController.swift in Sources */,
 				D443069D23A628BD00D63C6C /* ViewController.swift in Sources */,
 				D443069B23A628BD00D63C6C /* AppDelegate.swift in Sources */,

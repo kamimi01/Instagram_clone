@@ -13,7 +13,7 @@
         <!--Post View Controller-->
         <scene sceneID="QTd-44-bTw">
             <objects>
-                <viewController id="RoN-x9-NFG" customClass="PostViewController" customModule="Instagram_clone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Post" id="RoN-x9-NFG" customClass="PostViewController" customModule="Instagram_clone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oat-yj-zk8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -13,7 +13,7 @@
         <!--Image Select View Controller-->
         <scene sceneID="5Db-T2-IIe">
             <objects>
-                <viewController id="leI-B6-5po" customClass="ImageSelectViewController" customModule="Instagram_clone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ImageSelect" id="leI-B6-5po" customClass="ImageSelectViewController" customModule="Instagram_clone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fG9-Im-phg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -13,13 +13,6 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        setUpTab()
-    }
-    
-    func setUpTab() {
-        // 画像ファイル名を指定してタブを表示する
-        let tabBarController: ESTabBarController! 
     }
 
 }
