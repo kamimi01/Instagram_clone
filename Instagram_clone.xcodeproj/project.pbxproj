@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -64,7 +64,6 @@
 				FD57A6DF677473BF43777AF6 /* Pods-Instagram_clone.debug.xcconfig */,
 				C92B89D2CD56AED0449E20D5 /* Pods-Instagram_clone.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -97,7 +96,7 @@
 		D443069923A628BD00D63C6C /* Instagram_clone */ = {
 			isa = PBXGroup;
 			children = (
-				D44306AC23A628DF00D63C6C /* New Group */,
+				D44306AD23A628E500D63C6C /* View */,
 				D443069A23A628BD00D63C6C /* AppDelegate.swift */,
 				D443069C23A628BD00D63C6C /* ViewController.swift */,
 				D44306A123A628BF00D63C6C /* Assets.xcassets */,
@@ -105,14 +104,6 @@
 				D44306A623A628BF00D63C6C /* Info.plist */,
 			);
 			path = Instagram_clone;
-			sourceTree = "<group>";
-		};
-		D44306AC23A628DF00D63C6C /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-				D44306AD23A628E500D63C6C /* View */,
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		D44306AD23A628E500D63C6C /* View */ = {
